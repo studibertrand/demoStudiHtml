@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;  
+  }
+
+body {
+    background-color: #fce5dc;
+  }
 
 /*navbar*/
 
@@ -42,9 +51,8 @@ navbar a:hover {
 /*main_banner*/
 
 .banner {
-    height: 3rem;
-    width: 100%;
-    margin-bottom: 5rem;
+    height: 1em;
+    margin-bottom: 50px;
     background-position: center;
 }
 
@@ -66,3 +74,52 @@ navbar a:hover {
     font-size: 18px;
 }
 
+/* book-list */
+
+.book-list {
+    background-color: azure;
+    margin: 0 15% 50px;
+    padding: 50px 40px;
+    border-radius: 50px;
+}
+
+.book-list-title {
+    color: black;
+    font-size: 30px;
+}
+
+.book-wrapper {
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-between;
+}
+
+.book-item{
+    margin-bottom: 20px;
+    width: 10% ;
+}
+
+.book-img {
+    height: 150px;
+    background-image: url("image.jpeg");
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: #333 10px 10px 5px ;
+}
+
+.book-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.book-author {
+    color :brown;
+    font-style: italic;
+}
+
+.book-plus {
+    text-align: right;
+    margin-top: 15px;
+    font-style: italic;
+
+}
